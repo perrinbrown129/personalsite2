@@ -8,10 +8,21 @@
   width: 100%;
 }
 
+.buttons {
+  text-align: center;
+}
+
+footer {
+  float: right;
+  color: lightcoral;
+}
+
 body {
-  background: lightblue;
-  background-image: url("images/original.png");
-  background-repeat: repeat;
+  /* background: lightblue;
+  background-image: url("images/original.png");*/
+  background-image: url(images/spikes.png);
+  background-position: center;
+  background-attachment: scroll;
 }
 
 nav {
@@ -19,8 +30,25 @@ nav {
   font-size: 2em;
   display: inline-block;
   text-decoration: none;
-  color: lightcoral;
+  /* color: lightcoral; */
   margin-right: 1em;
+}
+
+button {
+  background-color: lightcoral;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  width: 10em;
+  margin: 0.5em 0;
+}
+
+h2 {
+  text-align: center;
 }
 
 a {
@@ -29,7 +57,7 @@ a {
 }
 
 a:hover {
-  color: yellow;
+  color: lightseagreen;
 }
 
 h1 {
@@ -53,28 +81,54 @@ h1 {
   font-size: 1.5em;
 }
 
+ul {
+  list-style: none;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+li > img {
+  /* display: inline-block; */
+  border-radius: 50%;
+  max-width: 30px;
+  height: auto;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
 img {
   width: 12em;
+  float: left;
+  margin-bottom: 1em;
 }
 
 .projects {
   display: inline-block;
-  color: lightcoral;
+  /* color: lightcoral; */
   margin-left: 20%;
   margin-right: 20%;
   background: lightgray;
-  padding: 2em;
+  /* padding: 2em; */
   background: rgba(255, 255, 255, 0.5);
   margin-bottom: 5em;
   font-size: 1.5em;
 }
 
+.projects > a {
+  float: right;
+}
+
 .projects > img {
   height: 10em;
-  width: 18em;
-  float: right;
-  margin-left: 1em;
-  margin-top: 0.5em;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .contact {
@@ -106,5 +160,11 @@ input {
 }
 
 h3 {
-  padding-top: 0;
+  margin-bottom: 10px;
+  margin-left: 1.25em;
+}
+
+p {
+  margin: 1em 2em;
+  font-size: 20px;
 }
