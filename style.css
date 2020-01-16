@@ -60,6 +60,11 @@ a:hover {
   color: lightseagreen;
 }
 
+button:hover {
+  background-color: lightseagreen;
+  color: white;
+}
+
 h1 {
   float: left;
   margin-top: 0;
@@ -72,12 +77,12 @@ h1 {
 .about {
   display: inline-block;
   color: lightcoral;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
   background: lightgray;
   padding: 2em;
   background: rgba(255, 255, 255, 0.5);
-  margin-bottom: 5em;
+  margin-bottom: 2em;
   font-size: 1.5em;
 }
 
@@ -115,7 +120,7 @@ li {
   vertical-align: middle;
 }
 
-li > img {
+li > a > img {
   /* display: inline-block; */
   border-radius: 50%;
   max-width: 30px;
@@ -133,8 +138,8 @@ img {
 .projects {
   display: inline-block;
   /* color: lightcoral; */
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
   background: lightgray;
   /* padding: 2em; */
   background: rgba(255, 255, 255, 0.5);
@@ -146,8 +151,8 @@ img {
   float: right;
 }
 
-.projects > img {
-  height: 10em;
+.projects > a > img {
+  height: 12em;
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
