@@ -1,7 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Mallanna&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Heebo:300&display=swap");
 
 * {
-  font-family: "Mallanna", sans-serif;
+  /* font-family: "Mallanna", sans-serif; */
+  font-family: "Heebo", sans-serif;
+  color: #5ebafd;
 }
 
 .header {
@@ -14,7 +16,7 @@
 
 footer {
   float: right;
-  color: lightcoral;
+  color: #5ebafd;
 }
 
 body {
@@ -126,7 +128,8 @@ li > a > img {
   max-width: 30px;
   height: auto;
   vertical-align: middle;
-  margin-top: 10px;
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
 }
 
 img {
@@ -189,6 +192,7 @@ input {
 h3 {
   margin-bottom: 10px;
   margin-left: 1.25em;
+  color: lightcoral;
 }
 
 p {
