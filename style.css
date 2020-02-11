@@ -136,7 +136,7 @@ li > a > img {
 img {
   float: left;
   margin-bottom: 1em;
-  width: 200px; /* width of container */
+  width: 300px; /* width of container */
   height: 400px; /* height of container */
   object-fit: scale-down;
 }
