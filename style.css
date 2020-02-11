@@ -98,6 +98,7 @@ h1 {
 
 .resume > img {
   width: 100%;
+  height: auto;
   margin-bottom: 5em;
   margin-top: 3em;
 }
@@ -133,9 +134,11 @@ li > a > img {
 }
 
 img {
-  width: 8em;
   float: left;
   margin-bottom: 1em;
+  width: 200px; /* width of container */
+  height: 400px; /* height of container */
+  object-fit: scale-down;
 }
 
 .projects {
